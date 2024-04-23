@@ -302,7 +302,7 @@ h4.h4-xl { font-size: 2.125rem; }  /* 34px */
 /* Header H3 */
 h3.h3-xs { font-size: 2.375rem; }  /* 38px */
 h3.h3-sm { font-size: 2.5rem; }    /* 40px */
-h3.h3-md { font-size: 1.625rem; }  /* 42px */
+h3.h3-md { font-size: 2.625rem; }  /* 42px */
 h3.h3-lg { font-size: 2.75rem; }   /* 44px */
 h3.h3-xl { font-size: 3rem; }      /* 48px */
 
@@ -716,7 +716,7 @@ span.section-id {
   font-size: 0.825rem;
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-  text-transform: normal;
+  text-transform: uppercase;
   display: block;
   letter-spacing: 0.5px;
   margin-bottom: 28px;   
