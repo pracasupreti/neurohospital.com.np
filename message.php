@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
+
+
 	<head>
 
 		<meta charset="utf-8">
@@ -152,7 +155,7 @@
 								We simply say, <strong>"Neuro Hospital - Biratnagar"</strong> is <pracas><strong>"the last lifeline"</strong></pracas> aand we have proved it by saving thousands of critical cases and restoring happiness to the families. Our managed medical services have been trusted by a wide range of patients from Nepal, India, Bangladesh, etc. 
 								</p>
 
-								<p>Kindly express your feedback suggestions, complaints, or grievances, or book an appointment.</p>
+								<p>Kindly express your feedback suggestions,complaintsn, or grievances, or book an appointment.</p>
 
 								
 
