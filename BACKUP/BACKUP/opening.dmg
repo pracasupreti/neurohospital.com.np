@@ -1,0 +1,66 @@
+
+			<!-- INFO-8
+			============================================= -->
+			<section id="info-8" class="info-section division">
+
+
+				<!-- TEXT BLOCK -->		
+				<div class="container">
+					<div class="row d-flex align-items-center">	
+						<div class="col-md-7 col-lg-5">
+							<div class="txt-block pc-30 white-color wow fadeInUp" data-wow-delay="0.4s">
+
+								<!-- Title -->
+								<h4 class="h4-sm">Opening Hours:</h4>
+
+								<!-- Text -->
+								<p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor tempus feugiat
+								   dolor lacinia cursus vitae massa
+								</p>
+
+								<!-- Table -->
+								<table class="table white-color">
+									<tbody>
+									    <tr>
+									      	<td>Mon – Wed</td>
+									      	<td> - </td>
+									      	<td class="text-right">9:00 AM - 7:00 PM</td>
+									    </tr>
+									     <tr>
+									      	<td>Thursday</td>
+									      	<td>-</td>
+									      	<td class="text-right">9:00 AM - 6:30 PM</td>
+									    </tr>
+									    <tr>
+									      	<td>Friday</td>
+									      	<td>-</td>
+									      	<td class="text-right">9:00 AM - 6:00 PM</td>
+									    </tr>
+									    <tr class="last-tr">
+									      	<td>Sun - Sun</td>
+									      	<td>-</td>
+									      	<td class="text-right">Closed</td>
+									   	 </tr>
+									  </tbody>
+								</table>
+
+								<!-- Title -->
+								<h5 class="h5-md">Need a personal health plan?</h5>
+
+								<!-- Text -->
+								<p>Porta semper lacus cursus, feugiat primis ultrice ligula risus auctor tempus feugiat
+								   dolor lacinia undo cursus nulla massa suscipit, luctus neque purus ipsum neque dolor primis 
+								</p>
+
+							</div>	
+						</div>	
+					</div>	  <!-- End row -->
+				</div>	   <!-- END TEXT BLOCK -->	
+
+
+				<!-- INFO-7 IMAGE -->
+				<div class="info-8-img text-center"></div>
+
+
+			</section>	<!-- END INFO-8 -->
+
