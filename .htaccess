@@ -13,7 +13,7 @@ Redirect 301 /about.php /about
 Redirect 301 /message.php /message
 Redirect 301 /partner.php /partner
 Redirect 301 /departments.php /departments
-Redirect 301 /doctors.php /doctors
+
 Redirect 301 /gallery.php /gallery
 Redirect 301 /testimonial.php /testimonial
 Redirect 301 /privacy.php /privacy
@@ -23,7 +23,7 @@ Redirect 301 /blog.php /blog
 Redirect 301 /contact.php /contact
 Redirect 301 /apply.php /apply
 Redirect 301 /browserconfig.xml /browserconfig
-Redirect 301 /calendar.php /calendar
+
 Redirect 301 /notice.php /notice
-Redirect 301 /privacy.php /privacy
+
 Redirect 301 /review.php /review
