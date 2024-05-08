@@ -1,0 +1,27 @@
+# Redirects from what the browser requests to what we serve
+/home                /
+
+
+#301 Redirect Old File
+/doctors.php /doctors
+/location.php /location
+/email.php /email
+/index.php /index
+/about.php /about
+/message.php /message
+/partner.php /partner
+/departments.php /departments
+
+/gallery.php /gallery
+/testimonial.php /testimonial
+/privacy.php /privacy
+/calendar.php /calendar
+/career.php /career
+/blog.php /blog
+/contact.php /contact
+/apply.php /apply
+/browserconfig.xml /browserconfig
+
+/notice.php /notice
+
+/review.php /review
