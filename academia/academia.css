@@ -1,0 +1,22 @@
+.academia-page {
+    .rounded-radius {
+        border-radius: 1rem;
+    }
+
+
+    .hero-section {
+        position: relative;
+    }
+
+    .picture-credit {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        background-color: rgba(0, 0, 0, 0.856);
+        color: rgb(255, 255, 255);
+        padding: 10px 10px;
+        border-radius: 5px;
+        opacity: 1;
+        font-size: 0.9rem;
+    }
+}
