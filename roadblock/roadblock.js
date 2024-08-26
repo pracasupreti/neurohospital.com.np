@@ -13,7 +13,7 @@ window.onload = function() {
     // Skip the ad after 6 seconds
     setTimeout(function() {
         skipAd();
-    }, 6000); // Adjust the delay as needed (6000ms = 6 seconds)
+    }, 10000); // Adjust the delay as needed (6000ms = 6 seconds)
 }
 
 function skipAd(event) {
