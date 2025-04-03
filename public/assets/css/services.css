@@ -1,0 +1,22 @@
+.services{
+    width:88%;
+    margin: auto;
+}
+.services div i{
+    font-style: normal;
+    color: rgb(250, 122, 3);
+}
+.services-sec-2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.services-sec-2 div{
+    width:48%;
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .services-sec-2 div{
+        width:100%;
+    }
+}
