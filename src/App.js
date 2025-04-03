@@ -5,7 +5,7 @@ import "./App.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MyRoute from "./route/MyRoute";
-import SecondNav from "./components/SecondNav";
+import Nav from "./components/SecondNav";
 import Float from "./components/Float";
 import PageNotFound from "./pages/PageNotFound";
 import UserLogin from "./pages/UserLogin";
@@ -32,7 +32,7 @@ function App() {
         <>
           <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
           <div className={`myroute ${menuOpen ? "menu-active" : "not-active"}`}>
-            <SecondNav />
+            <Nav />
             <Float />
             <MyRoute />
             <Footer />
