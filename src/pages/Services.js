@@ -9,7 +9,6 @@ const Services = () => {
     showHomePic(false);
   };
   useEffect(() => {
-    document.title = "Neuro Hospital | services";
     if (homePic) {
       const timer = setTimeout(() => {
         showHomePic(false);

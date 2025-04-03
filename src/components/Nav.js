@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink, useLocation, useNavigate } from "react-router-dom";
 
-const SecondNav = () => {
+const Nav = () => {
   const [showAbout, setShowAbout] = useState(false);
   const [showDept, setShowDept] = useState(false);
   const [showBrowse, setShowBrowse] = useState(false);
@@ -190,4 +190,4 @@ const SecondNav = () => {
   );
 };
 
-export default SecondNav;
+export default Nav;
