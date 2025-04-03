@@ -38,7 +38,7 @@ const Home = () => {
     if (homePic) {
       const timer = setTimeout(() => {
         showHomePic(false);
-      }, 2000);
+      }, 7000);
   
       return () => clearTimeout(timer); 
     }

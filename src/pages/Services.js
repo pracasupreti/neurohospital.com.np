@@ -1,11 +1,39 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Breadcrumb from "../components/Breadcrumb";
 import { Link } from "react-router-dom";
 
 const Services = () => {
   const name = "Our Services";
+  const [homePic, showHomePic] = useState(true);
+  const close = () => {
+    showHomePic(false);
+  };
+  useEffect(() => {
+    document.title = "Neuro Hospital | services";
+    if (homePic) {
+      const timer = setTimeout(() => {
+        showHomePic(false);
+      }, 7000);
+
+      return () => clearTimeout(timer);
+    }
+  }, [homePic]);
   return (
     <>
+      {homePic && (
+        <div className="service-overlay">
+          <div className="service-overlay-div">
+            <img
+              src="/assets/images/services/pop_up.jpg"
+              alt="Home"
+              className="service-overlay-image"
+            />
+            <button className="service-close-button" onClick={close}>
+              X
+            </button>
+          </div>
+        </div>
+      )}
       <Breadcrumb name1={name} name2={name} />
       <div className="services">
         <div className="services-sec-1 my-3" style={{ textAlign: "justify" }}>
@@ -15,24 +43,23 @@ const Services = () => {
           advanced medical technology, experienced doctors, and dedicated staff
           ensure that patients receive the highest quality care.
         </div>
-        <p className="h1 text-center m-3" style={{ color: "#2c52a0" }}>Services</p>
+        <p className="h1 text-center m-3" style={{ color: "#2c52a0" }}>
+          Services
+        </p>
         <div className=" py-3">
-          <p className=" h4 " >
-            {" "}
-            1. Diagnostic and Imaging Services
-          </p>
+          <p className=" h4 "> 1. Diagnostic and Imaging Services</p>
           <p className="mx-4">
             We offer state-of-the-art diagnostic tools to provide accurate and
             reliable results for various health conditions.
           </p>
-          <div className="blog-pic">
+          <div className="service-pic">
             <img
               src="/assets/images/services/2.jpg"
               alt="services-img-1"
               className="shadow "
             />
           </div>
-
+     
           <div className="m-2">
             <ul>
               <li>
@@ -91,22 +118,20 @@ const Services = () => {
           </div>
         </div>
         <div className=" py-3 my-3">
-          <p className=" h4 " >
-            {" "}
-            2. Surgical Services
-          </p>
+          <p className=" h4 "> 2. Surgical Services</p>
           <p className="mx-4">
             Our hospital is equipped with advanced surgical facilities and a
             highly skilled team to perform a wide range of procedures.
           </p>
-          <div className="blog-pic">
+          <div className="service-pic">
             <img
               src="/assets/images/services/3.jpg"
               alt="services-img-2"
               className="shadow "
             />
+            
           </div>
-          <ul className="m-2">
+          <ul className="m-3">
             <li>
               <i>Modular OT Setup –</i> Modern operating theaters designed to
               maintain a sterile environment for complex and high-risk
@@ -148,21 +173,19 @@ const Services = () => {
           </ul>
         </div>
         <div className=" py-3 my-3">
-          <p className=" h4 " >
-            {" "}
-            3. Emergency and Critical Care Services
-          </p>
+          <p className=" h4 "> 3. Emergency and Critical Care Services</p>
           <p className="mx-4">
             Our emergency services are available 24/7 to respond to medical
             emergencies with immediate care.
           </p>
-          <div className="blog-pic">
+          <div className="service-pic">
             <img
               src="/assets/images/services/4.jpg"
               alt="services-img-2"
               className="shadow "
             />
           </div>
+          
           <div className="m-2">
             <ul>
               <li>
@@ -182,21 +205,19 @@ const Services = () => {
           </div>
         </div>
         <div className=" py-3 my-3">
-          <p className="h4 " >
-            {" "}
-            4. Specialized Care Services
-          </p>
+          <p className="h4 "> 4. Specialized Care Services</p>
           <p className="mx-4">
             Our specialized departments offer expert care tailored to various
             medical needs.
           </p>
-          <div className="blog-pic">
+          <div className="service-pic">
             <img
-              src="/assets/images/services/2.jpg"
+              src="/assets/images/services/1.jpg"
               alt="services-img-4"
               className="shadow "
             />
           </div>
+          
           <div className="m-2">
             <ul>
               <li>
@@ -224,15 +245,19 @@ const Services = () => {
           </div>
         </div>
         <div className=" py-3 my-3">
-          <p className=" h4 " >
-            {" "}
-            5. Outpatient and Consultation Services
-          </p>
+          <p className=" h4 "> 5. Outpatient and Consultation Services</p>
           <p className="mx-4">
             We offer outpatient services for routine checkups, specialist
             consultations, and follow-up care.
           </p>
-
+          <div className="service-pic">
+            <img
+              src="/assets/images/services/6.jpg"
+              alt="services-img-6"
+              className="shadow "
+            />
+          </div>
+          
           <div className="services-sec-2 ">
             <div className="m-2 w-100">
               <ul>
@@ -259,22 +284,19 @@ const Services = () => {
           </div>
         </div>
         <div className=" py-3 my-3">
-          <p className="h4" >
-            {" "}
-            6. Special Days and Discounts
-          </p>
+          <p className="h4"> 6. Special Days and Discounts</p>
           <p className="mx-4">
             We provide affordable healthcare through various special days and
             discounts:
           </p>
-          <div className="blog-pic">
+          <div className="service-pic">
             <img
               src="/assets/images/services/pop_up.jpg"
               alt="services-img-6"
               className="shadow "
             />
           </div>
-
+          
           <div className="">
             <ul className="m-2">
               <li>
@@ -307,9 +329,7 @@ const Services = () => {
             </ul>
           </div>
         </div>
-        <p className=" h2 my-3" >
-          Conclusion
-        </p>
+        <p className=" h2 my-3">Conclusion</p>
         <p style={{ textAlign: "justify" }}>
           Neuro Cardio & Multispeciality Hospital Biratnagar is committed to
           top-quality healthcare through advanced technology, expert doctors,
