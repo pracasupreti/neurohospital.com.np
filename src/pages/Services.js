@@ -268,7 +268,7 @@ const Services = () => {
                   <i>Online Appointment Booking –</i> Convenient online
                   scheduling for consultations and procedures. You can book your
                   appointment easily by visiting our website:{" "}
-                  <Link to="https://neuro.danphecare.com/">
+                  <Link to="https://neuro.danphecare.com/" target="_blank">
                     https://neuro.danphecare.com/
                   </Link>{" "}
                   or using our mobile application.

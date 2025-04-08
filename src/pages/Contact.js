@@ -61,7 +61,7 @@ const Contact = () => {
                 <div>WhatsApp : +977-9852032994 </div>
                 <div>
                   WhatsApp Call:{" "}
-                  <Link to="https://wa.me/9779852032994" className="ct-p5">
+                  <Link to="https://wa.me/9779852032994" className="ct-p5" target="_blank">
                     Call now
                   </Link>{" "}
                 </div>
@@ -72,7 +72,7 @@ const Contact = () => {
                 <div>WhatsApp : +977-980-4062054 </div>
                 <div>
                   WhatsApp Call:{" "}
-                  <Link to="https://wa.me/9779804062054" className="ct-p5">
+                  <Link to="https://wa.me/9779804062054" className="ct-p5" target="_blank">
                     Call now
                   </Link>{" "}
                 </div>
@@ -110,6 +110,7 @@ const Contact = () => {
             <p className="ct-p6">Dibya Rajbhandari (She/Her)</p>
             <p className="ct-p7">pro@neurohospital.com.np</p>
             <Link
+            target="_blank"
               to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >
@@ -124,6 +125,7 @@ const Contact = () => {
             <p className="ct-p6">Tanka Gautam (He/Him)</p>
             <p className="ct-p7">frontdesk@neurohospital.com.np</p>
             <Link
+            target="_blank"
               to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >
@@ -137,6 +139,7 @@ const Contact = () => {
             <p className="ct-p6">Reena Bhattarai (She/Her)</p>
             <p className="ct-p7">counselor@neurohospital.com.np</p>
             <Link
+            target="_blank"
               to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >

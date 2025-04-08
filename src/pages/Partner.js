@@ -118,7 +118,7 @@ const Partner = () => {
                   {item.link === "null" ? (
                     <></>
                   ) : (
-                    <Link className="msd2-btn btn " to={item.link}>
+                    <Link className="msd2-btn btn " to={item.link} target="_blank">
                       Browse More
                     </Link>
                   )}
@@ -143,7 +143,7 @@ const Partner = () => {
                   {item.link === "null" ? (
                     <></>
                   ) : (
-                    <Link className="msd2-btn btn " to={item.link}>
+                    <Link className="msd2-btn btn " to={item.link} target="_blank">
                       Browse More
                     </Link>
                   )}
@@ -179,7 +179,7 @@ const Partner = () => {
                   {item.link === "null" ? (
                     <></>
                   ) : (
-                    <Link className="msd2-btn btn " to={item.link}>
+                    <Link className="msd2-btn btn " to={item.link} target="_blank">
                       Browse More
                     </Link>
                   )}
@@ -210,7 +210,7 @@ const Partner = () => {
                 sector and sports sector, construction and agriculture.
               </p>
               <p>
-                <Link className="msd2-btn btn" to="https://www.gefont.org/">
+                <Link className="msd2-btn btn" to="https://www.gefont.org/" target="_blank">
                   Browse More
                 </Link>
               </p>
@@ -238,7 +238,8 @@ const Partner = () => {
                 sector.
               </p>
               <p>
-                <Link
+                <Link 
+                target="_blank"
                   className="msd2-btn btn"
                   to="http://www.pabsonmorang.org.np/"
                 >
@@ -264,7 +265,7 @@ const Partner = () => {
                   {item.link === "null" ? (
                     <></>
                   ) : (
-                    <Link className="msd2-btn btn " to={item.link}>
+                    <Link className="msd2-btn btn " to={item.link} target="_blank">
                       Browse More
                     </Link>
                   )}

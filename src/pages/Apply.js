@@ -139,6 +139,7 @@ const Apply = () => {
               which is in Biratnagar.
             </p>
             <NavLink
+            target="_blank"
               to="https://neuro.danphecare.com/"
               className="nav-2-btn btn text-sm"
             >

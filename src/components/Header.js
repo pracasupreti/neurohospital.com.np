@@ -205,6 +205,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
                 <Link
                   to="https://neuro.danphecare.com/"
                   className="text-light "
+                  target="_blank"
                 >
                   Book an Appointment
                 </Link>
@@ -235,6 +236,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
             </div>
             <div className="nav-1-second d-flex">
               <NavLink
+              target="_blank"
                 to="https://www.facebook.com/neurohospitalofficial/"
                 className="media-container"
                 onMouseOver={() => setShowFb(true)}
@@ -245,6 +247,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
               </NavLink>
 
               <NavLink
+              target="_blank"
                 to="https://www.instagram.com/neurohospitalbrt/"
                 className="media-container"
                 onMouseOver={() => setShowInst(true)}
@@ -255,6 +258,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
               </NavLink>
               <NavLink
                 to="https://www.youtube.com/channel/UCGrHL0QQXVu1n-P29xUhmYA"
+                target="_blank"
                 className="media-container"
                 onMouseOver={() => setShowYt(true)}
                 onMouseLeave={() => setShowYt(false)}
@@ -264,6 +268,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
               </NavLink>
               <NavLink
                 to="https://www.linkedin.com/company/neurohospital/?originalSubdomain=np"
+                target="_blank"
                 className="media-container"
                 onMouseOver={() => setShowLdn(true)}
                 onMouseLeave={() => setShowLdn(false)}
@@ -273,6 +278,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
               </NavLink>
               <NavLink
                 to="https://wa.me/9779852004024?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20"
+                target="_blank"
                 className="media-container"
                 onMouseOver={() => setShowWtsp(true)}
                 onMouseLeave={() => setShowWtsp(false)}
