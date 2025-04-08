@@ -44,7 +44,7 @@
   color: rgb(0, 0, 0);
 }
 .services {
-  width: 88%;
+  width: 1110px;
   margin: auto;
 }
 .services div i {
@@ -79,6 +79,10 @@
   }
   .overlay-image {
     width: 80%;
+  }
+  .services {
+    width: 100%;
+    margin: 0 1rem;
   }
   .services-sec-2 div {
     width: 100%;

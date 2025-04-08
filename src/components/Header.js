@@ -218,9 +218,9 @@ const Header = ({ menuOpen, setMenuOpen }) => {
 
       {/* responsive view ends*/}
       <header className="header">
-        <nav className="nav-1 d-flex  text-light">
-          <div className="nav-1-content d-flex justify-content-between">
-            <div className="nav-1-first d-flex  text-light">
+        <nav className="nav-1 text-light">
+          <div className="nav-1-content ">
+            <div className="nav-1-first  text-light">
               <NavLink to="/location">
                 <i className="fa-solid fa-location-dot  text-light"></i>&nbsp;
                 F73M+G94, Jahada Road, Biratnagar
@@ -234,7 +234,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
                 Email
               </NavLink>
             </div>
-            <div className="nav-1-second d-flex">
+            <div className="nav-1-second ">
               <NavLink
               target="_blank"
                 to="https://www.facebook.com/neurohospitalofficial/"

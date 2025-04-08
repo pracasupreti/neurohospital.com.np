@@ -1,7 +1,7 @@
 .gallery {
   display: flex;
   flex-wrap: wrap;
-  width: 91%;
+  width:1110px;
   margin: auto;
   justify-content: space-around;
 }
@@ -196,6 +196,9 @@
   border:2px solid red;
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+  .gallery {
+    width: 90%;
+  }
   .g-col-div1,
   .g-col-div2,
   .gd1-c1,

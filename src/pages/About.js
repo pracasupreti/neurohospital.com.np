@@ -127,7 +127,7 @@ const About = () => {
     <>
       <Breadcrumb name1={name1} name2={name2} />
 
-      {/* Section 1 */}
+   
       <div className="abu-sec1" style={{ textAlign: "justify" }}>
         <div className="ab-sec1-cnt ">
           <div className="ab-sec1-cnt-1">
@@ -159,7 +159,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Section 2 (Appears on scroll) */}
+ 
       <div ref={sec2Ref} className={` abu-sec2 ${isVisible ? "show" : ""}`}>
         <div className="abu-sec2-cnt" style={{ textAlign: "justify" }}>
           <div className="abu-sec2-cnt1 ">
@@ -213,7 +213,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* Section 3 (Appears on scroll) */}
+     
       <div className="abu-sec3 my-2">
         <div
           ref={sec3Ref}
@@ -257,7 +257,6 @@ const About = () => {
           </div>
         </div>
       </div>
-      {/* Section 4 (Video Section) */}
       <div className="abu-sec4" style={{ textAlign: "justify" }}>
         <div className="abs4-cnt">
           <div className="abs4-cnt1">
@@ -284,8 +283,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
-      {/* Section 5 (About Component) */}
       <div className="abu-sec5">
         <div className="abs5-cnt">
           <div

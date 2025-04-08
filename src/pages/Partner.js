@@ -104,7 +104,7 @@ const Partner = () => {
       <div className="Ptr" style={{ textAlign: 'justify' }}>
         {list1.map((item) => (
           <div key={item.name} className="ptr-row shadow">
-            <div className="ptr-ptr-1 mx-2">
+            <div className="ptr-ptr-1 m-2">
               <div className="ptr-col1">
                 <img src={item.img} alt={item.name} />
               </div>

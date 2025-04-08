@@ -9,7 +9,7 @@
   }
   
   .nav-2-content {
-    width: 88%;
+    max-width: 1110px;
     height: 4.3rem;
     display: flex;
     margin: auto;
