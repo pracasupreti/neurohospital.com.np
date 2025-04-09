@@ -1,7 +1,8 @@
 .calendar {
+  background-color: white;
   max-width: 900px;
   height: auto;
-  margin: 1rem auto;
+  margin: 1rem auto 5rem auto;
   padding: 10px;
   border-radius: 10px;
   border: 0.5px solid rgb(217, 217, 217);
@@ -23,11 +24,11 @@
   align-items: center;
 }
 .h-btn {
+  background-color: white;
   color: #2c52a0;
   border: none;
   font-weight: bolder;
   font-size: 2rem;
-  background-color: white !important;
 }
 .month-year-selector {
   display: flex;

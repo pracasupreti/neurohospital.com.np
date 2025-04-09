@@ -23,7 +23,7 @@
 }
 .map-frame {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 3rem;
   height: 100%;
   overflow: hidden;
   max-width: 100%;

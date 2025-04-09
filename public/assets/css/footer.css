@@ -43,6 +43,9 @@ footer{
     text-decoration: none;
     color: #666666;
   }
+  .e-link{
+    text-decoration: none;
+  }
   .e-link:hover {
     color: #999 !important;
   }

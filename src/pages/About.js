@@ -104,7 +104,7 @@ const About = () => {
   useEffect(() => {
     if (isSec3Visible) {
       animateNumber(setPatients, 100000, 3000);
-      animateNumber(setDoctors, 31, 3000);
+      animateNumber(setDoctors, 30, 3000);
       animateNumber(setBeds, 150, 3000);
       animateNumber(setCenters, 473, 3000);
     }
@@ -144,11 +144,11 @@ const About = () => {
                 doctors in Nepal.
               </p>
               <p className="abu-p3">
-                Neuro Cardio & Multispecialty Hospital Pvt.Ltd. is a well-known
-                multispecialty hospital that was established in 2000 AD to
+                Neuro Cardio & Multispecialty Hospital Pvt. Ltd. is a well-known
+                multispecialty hospital that was established in 2000 A.D to
                 provide the best neurological and other medical facilities.
               </p>
-              <div className="abu-p4 text-dark">Dr. Birendra Kumar Bista</div>
+              <div className="abu-p4 text-bold">Dr. Birendra Kumar Bista</div>
               <div className="abu-p5">Senior Consultant Neurologist</div>
               <Link to="https://neuro.danphecare.com/" className="abu-btn btn" target="_blank">
                 Book an Appointment
@@ -158,8 +158,6 @@ const About = () => {
           </div>
         </div>
       </div>
-
- 
       <div ref={sec2Ref} className={` abu-sec2 ${isVisible ? "show" : ""}`}>
         <div className="abu-sec2-cnt" >
           <div className="abu-sec2-cnt1 ">

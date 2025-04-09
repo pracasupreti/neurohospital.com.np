@@ -12,17 +12,18 @@
   width: 1110px;
   height: 79%;
   box-sizing: border-box;
+  justify-content: space-between;
   /* border:2px solid purple; */
 }
 .ab-sec1-cnt-1 {
-  width: 50%;
+  width: 49%;
 }
 .ab-sec1-cnt-1 img {
   height: 100%;
   width: 100%;
 }
 .ab-sec1-cnt-2 {
-  width: 50%;
+  width: 49%;
   /* border:2px solid black; */
   display: flex;
   justify-content: center;
@@ -50,6 +51,7 @@
   margin-top: 1.5rem;
 }
 .abu-p4 {
+  font-weight: bolder;
   font-size: 15px;
   margin-top: 1.8rem;
 }
@@ -85,16 +87,17 @@
   height: 90%;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   /* border: 2px solid purple; */
 }
 .abu-sec2-cnt1 {
-  width: 50%;
+  width: 49%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .abu-sec2-cnt2 {
-  width: 50%;
+  width: 49%;
 }
 .abu-sec2-cnt2 img {
   height: 100%;
@@ -206,12 +209,12 @@
 
 .abs4-cnt1 {
   height: 100%;
-  width: 48%;
+  width: 49%;
   /* border:2px solid rgb(0, 0, 0); */
 }
 .abs4-cnt2 {
   height: 100%;
-  width: 48%;
+  width: 49%;
   /* border:2px solid rgb(0, 0, 0); */
   display: flex;
   justify-content: center;

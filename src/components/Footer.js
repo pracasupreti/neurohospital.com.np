@@ -87,9 +87,9 @@ const Footer = () => {
         <div className="footer-last text-center">
           <div>
             <div className="container">
-              Copyright &copy; 2000-{" "}
+              Copyright &copy; 2000 - {" "}2025{" "}
               <b className="text-dark">
-                Neuro Cardio & Multispeciality Hospital Pvt.Ltd.
+                Neuro Cardio & Multispeciality Hospital Pvt. Ltd.
               </b>{" "}
               All Rights Reserved
             </div>
