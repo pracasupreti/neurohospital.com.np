@@ -426,7 +426,7 @@
   }
 
   .ab-sec1-cnt {
-    width: 88%;
+    width: 90%;
     height: auto;
     justify-content: none;
   }
@@ -474,6 +474,7 @@
     margin-bottom: 3rem;
   }
   .abu-sec2 {
+    width: 100%;
     height: auto;
     transform: none;
     opacity: 1;
@@ -482,9 +483,8 @@
     margin-top: 0;
   }
   .abu-sec2-cnt {
-    width: 88%;
-    margin: 1rem auto !important;
-    /*  */
+    width: 90%;
+    /* border: 2px solid black; */
     justify-content: none;
   }
   .abs5c21 {

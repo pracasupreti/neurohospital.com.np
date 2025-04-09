@@ -100,7 +100,7 @@ const Testimonials = () => {
   return (
     <>
       <Breadcrumb name1={name1} name2={name1} />
-      <div className="tl-sec shadow mb-3">
+      <div className="tl-sec  mb-3">
         <div className="tl-div m-2">
           <div ref={sec2Ref} className={`tl-col1 ${isVisible ? "show" : ""}`}>
             <img src="/assets/images/testimonials/t1.jpg" alt="t1" />
@@ -131,7 +131,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="tl-sec1 shadow mb-3">
+      <div className="tl-sec1  mb-3">
         <div className="tl-div mx-2 my-2">
           <div
             ref={sec4Ref}
@@ -165,7 +165,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="tl-sec1 shadow mb-3">
+      <div className="tl-sec1  mb-3">
         <div className="tl-div mx-2 my-2">
           <div
             ref={sec6Ref}

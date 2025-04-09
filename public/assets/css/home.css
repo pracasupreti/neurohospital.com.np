@@ -857,8 +857,7 @@
     height: auto;
   }
   .home-row {
-    width: 99%;
-    margin: auto !important;
+    width: 90%;
     color: #ffffff !important;
   }
   .home-first {
@@ -1136,8 +1135,6 @@
   }
   .section-7 {
     height:auto;
-    background-position: left center;
-    background-size: cover;
   }
   .sec-7-div {
     margin: auto;
@@ -1149,7 +1146,7 @@
   }
   .sec7-p2 {
     width: 100%;
-    color: #666 !important;
+    color: #000000 !important;
   }
   .sec7-p1 {
     margin: 0;

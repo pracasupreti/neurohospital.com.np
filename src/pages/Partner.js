@@ -103,12 +103,12 @@ const Partner = () => {
       <Breadcrumb name1={name1} name2={name1} />
       <div className="Ptr" style={{ textAlign: 'justify' }}>
         {list1.map((item) => (
-          <div key={item.name} className="ptr-row shadow">
+          <div key={item.name} className="ptr-row ">
             <div className="ptr-ptr-1 m-2">
               <div className="ptr-col1">
                 <img src={item.img} alt={item.name} />
               </div>
-              <div className="ptr-col2">
+              <div className="ptr-col2 py-2">
                 <p className="ptr-p1">{item.date}</p>
                 <p className="ptr-p2">{item.name}</p>
                 <div className="ptr-p3">
@@ -128,12 +128,12 @@ const Partner = () => {
           </div>
         ))}
         {list2.map((item) => (
-          <div key={item.name} className="ptr-row-1 shadow">
+          <div key={item.name} className="ptr-row-1 ">
             <div className="ptr-ptr-2 mx-2">
               <div className="ptr-col1-1">
                 <img src={item.img} alt={item.name} />
               </div>
-              <div className="ptr-col2-1">
+              <div className="ptr-col2-1 py-2">
                 <p className="ptr-p1">{item.date}</p>
                 <p className="ptr-p2">{item.name}</p>
                 <div className="ptr-p3">
@@ -152,7 +152,7 @@ const Partner = () => {
             </div>
           </div>
         ))}
-        <div className="ptr-row33 shadow">
+        <div className="ptr-row33 ">
           <div className="ptr-ptr-3 mx-2">
             <div className="ptr3-col13">
               <img src="/assets/images/aboutus/jhipucha.jpg" alt="" />
@@ -164,12 +164,12 @@ const Partner = () => {
           </div>
         </div>
         {list3.map((item) => (
-          <div key={item.name} className="ptr-row-2 shadow">
+          <div key={item.name} className="ptr-row-2 ">
             <div className="ptr-ptr-4 mx-2">
               <div className="ptr-col1-2">
                 <img src={item.img} alt={item.name} />
               </div>
-              <div className="ptr-col2-2">
+              <div className="ptr-col2-2 py-2">
                 <p className="ptr-p1">{item.date}</p>
                 <p className="ptr-p2">{item.name}</p>
                 <div className="ptr-p3">
@@ -188,12 +188,12 @@ const Partner = () => {
             </div>
           </div>
         ))}
-        <div className="ptr-row3-3 shadow">
+        <div className="ptr-row3-3 ">
           <div className="ptr-ptr-5 mx-2">
             <div className="ptr3-col1-3">
               <img src="/assets/images/aboutus/gefont.png" alt="" />
             </div>
-            <div className="ptr3-col2-3">
+            <div className="ptr3-col2-3 py-2">
               <p className="ptr-p1">Date of MoU : 1-May-2024</p>
               <p className="ptr-p2">GEFONT</p>
               <p className="ptr-p3">
@@ -217,12 +217,12 @@ const Partner = () => {
             </div>
           </div>
         </div>
-        <div className="ptr-row3 shadow">
+        <div className="ptr-row3 ">
           <div className="ptr-ptr-6 mx-2">
             <div className="ptr3-col1">
               <img src="/assets/images/aboutus/pabson.png" alt="" />
             </div>
-            <div className="ptr3-col2">
+            <div className="ptr3-col2 py-2">
               <p className="ptr-p1">Date of MoU : 2-May-2024</p>
               <p className="ptr-p2">Pabson Morang</p>
               <p className="ptr-p3">
@@ -250,12 +250,12 @@ const Partner = () => {
           </div>
         </div>
         {list4.map((item) => (
-          <div key={item.name} className="ptr-row-2 shadow">
+          <div key={item.name} className="ptr-row-2 ">
             <div className="ptr-ptr-4 mx-2">
               <div className="ptr4-col1-2">
                 <img src={item.img} alt={item.name} />
               </div>
-              <div className="ptr4-col2-2">
+              <div className="ptr4-col2-2 py-2">
                 <p className="ptr-p1">{item.date}</p>
                 <p className="ptr-p2">{item.name}</p>
                 <div className="ptr-p3">

@@ -161,14 +161,14 @@ const About = () => {
 
  
       <div ref={sec2Ref} className={` abu-sec2 ${isVisible ? "show" : ""}`}>
-        <div className="abu-sec2-cnt" style={{ textAlign: "justify" }}>
+        <div className="abu-sec2-cnt" >
           <div className="abu-sec2-cnt1 ">
             <div className="abu-s2ct-1div mx-2">
               <div className="s2ct-p1">Highest Quality Care</div>
               <div className="s2ct-p2">
                 Complete Medical Solutions in One Place
               </div>
-              <div className="s2ct-p3">
+              <div className="s2ct-p3" style={{ textAlign: "justify" }}>
                 Medical solutions rank amongst the most exciting and interesting
                 ways healthcare providers leverage digital technology to improve
                 medical care. They have the potential to transform healthcare

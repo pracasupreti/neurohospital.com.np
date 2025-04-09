@@ -117,7 +117,7 @@ const Apply = () => {
               </div>
             </form>
           </div>
-          <div className="cols col-md-4 col-sm-12 shadow ">
+          <div className="cols col-md-4 col-sm-12 shadow mb-3 ">
             <p className="apply-p2">Welcome !</p>
             <hr />
             <div className="row apply-row-2">

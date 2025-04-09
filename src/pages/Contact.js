@@ -81,7 +81,7 @@ const Contact = () => {
           </div>
           <div className="ct1-col2 text-center">
             <div data-wow-delay="0.2s">
-              <div className="map-frame">
+              <div className="contact-map-frame">
                 <iframe
                   className="contact-i-frame"
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57153.27612643293!2d87.20819204863277!3d26.453157900000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef745000000001%3A0x2e285e8569816c06!2sNeuro%20Cardio%20%26%20Multispeciality%20Hospital%20Pvt.%20Ltd.!5e0!3m2!1sen!2snp!4v1695881679277!5m2!1sen!2snp"
@@ -117,7 +117,7 @@ const Contact = () => {
               <i className="fa-brands fa-whatsapp text-light"></i>{" "}
               &nbsp;WhatsApp
             </Link>
-            <br/><br/>
+            
           </div>
           <div className="ct-s3-col1 text-center shadow">
             <img src="/assets/images/contact/c2.png" alt="img1" />
@@ -131,7 +131,6 @@ const Contact = () => {
             >
               <i className="fa-brands fa-whatsapp text-light"></i>&nbsp;WhatsApp
             </Link>
-            <br/><br/>
           </div>
           <div className="ct-s3-col1 text-center shadow">
             <img src="/assets/images/contact/c3.png" alt="img1" />
@@ -145,7 +144,6 @@ const Contact = () => {
             >
               <i className="fa-brands fa-whatsapp text-light"></i>&nbsp;WhatsApp
             </Link>
-            <br/><br/>
           </div>
         </div>
       </div>
