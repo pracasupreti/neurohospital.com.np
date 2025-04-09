@@ -104,7 +104,7 @@ const Contact = () => {
         <br />
         <br />
         <div className="ct-sec3">
-          <div className="ct-s3-col1 text-center shadow">
+          <div className="ct-s3-col1 text-center ">
             <img src="/assets/images/contact/c1.png" alt="img1" />
             <p className="ct-p5">P.R.O.</p>
             <p className="ct-p6">Dibya Rajbhandari (She/Her)</p>
@@ -119,7 +119,7 @@ const Contact = () => {
             </Link>
             
           </div>
-          <div className="ct-s3-col1 text-center shadow">
+          <div className="ct-s3-col1 text-center ">
             <img src="/assets/images/contact/c2.png" alt="img1" />
             <p className="ct-p5">Frontdesk</p>
             <p className="ct-p6">Tanka Gautam (He/Him)</p>
@@ -132,7 +132,7 @@ const Contact = () => {
               <i className="fa-brands fa-whatsapp text-light"></i>&nbsp;WhatsApp
             </Link>
           </div>
-          <div className="ct-s3-col1 text-center shadow">
+          <div className="ct-s3-col1 text-center ">
             <img src="/assets/images/contact/c3.png" alt="img1" />
             <p className="ct-p5">Counselor</p>
             <p className="ct-p6">Reena Bhattarai (She/Her)</p>
