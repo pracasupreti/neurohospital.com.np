@@ -20,7 +20,7 @@
 .dcts1-1 {
   background-color: #fff;
   width: 48%;
-  border-radius: 3px;
+  border-radius: 10px;
   border: 1px solid #f0efef;
 }
 .dcts1-1 img {
@@ -85,7 +85,7 @@
   background-color: #fff;
   width: 32%;
   height: 30rem;
-  margin: 0.6rem 1rem 0.6rem 0 ;
+  margin: 0.6rem 1.5rem 1rem 0 ;
   border: 1px solid #f0efef;
   border-radius: 10px;
 }
@@ -95,6 +95,9 @@
   width: 90%;
 }
 .li-doc:hover img {
+  transform: scale(0.9);
+}
+.li-doc1:hover img {
   transform: scale(0.9);
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
