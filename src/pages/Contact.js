@@ -25,13 +25,13 @@ const Contact = () => {
               <div className="ct-col2">
                 <div className="ct-p2">Emergency Helpline</div>
                 <div>
-                  Toll Free :
+                  Toll Free :{" "}
                   <Link className="ct-p3" to="tel:166-021-52777">
                     166-021-52777
                   </Link>{" "}
                 </div>
                 <div>
-                  Hotline :
+                  Hotline :{" "}
                   <Link className="ct-p3" to="tel: +977-21-416267">
                     {" "}
                     +977-21-416267
@@ -41,13 +41,13 @@ const Contact = () => {
               <div className="ct-col1">
                 <div className="ct-p2">Ambulance</div>
                 <div>
-                  Tel :
+                  Tel :{" "}
                   <Link className="ct-p3" to="tel : +977-21-417484">
                     +977-21-417484
                   </Link>{" "}
                 </div>
                 <div>
-                  Tel :
+                  Tel :{" "}
                   <Link className="ct-p3" to="tel: +977-21-417475">
                     +977-21-417475
                   </Link>{" "}
@@ -60,7 +60,7 @@ const Contact = () => {
                 <div className="ct-p4">Bhaarat Shrestha</div>
                 <div>WhatsApp : +977-9852032994 </div>
                 <div>
-                  WhatsApp Call:{" "}
+                  WhatsApp Call :{" "}
                   <Link to="https://wa.me/9779852032994" className="ct-p5" target="_blank">
                     Call now
                   </Link>{" "}
@@ -71,7 +71,7 @@ const Contact = () => {
                 <div className="ct-p4">Mr. Matrika Pokharel</div>
                 <div>WhatsApp : +977-980-4062054 </div>
                 <div>
-                  WhatsApp Call:{" "}
+                  WhatsApp Call :{" "}
                   <Link to="https://wa.me/9779804062054" className="ct-p5" target="_blank">
                     Call now
                   </Link>{" "}

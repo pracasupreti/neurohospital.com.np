@@ -101,6 +101,15 @@
   transform: scale(0.9);
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
+  .dcts-1-p1 {
+    font-size: 1.4rem;
+  }
+  .dcts-1-p2 {
+    font-size: 1.2rem;
+  }
+  .dcts-btn {
+    font-size: 1.15rem !important;
+  }
   .dct-sec-1 {
     height: auto;
   }

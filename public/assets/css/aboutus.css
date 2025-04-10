@@ -509,7 +509,7 @@
   .abu-sec2-cnt1 {
     /* border: 2px solid black; */
     width: 100% !important;
-    height: 33rem;
+    height: auto;
   }
   .abu-sec2-cnt2 {
     /* border: 2px solid rgb(232, 5, 5); */
