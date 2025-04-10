@@ -238,7 +238,7 @@ const Blogs = () => {
                   >
                     {card.des}
                   </p>
-                  <p className="blog-date mx-3">Date posted:{card.date}</p>
+                  <p className="blog-date mx-3">Date posted : {card.date}</p>
                   <p className="text-center">
                     {" "}
                     <Link

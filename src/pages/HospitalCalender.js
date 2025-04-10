@@ -83,7 +83,7 @@ const HospitalCalender = () => {
     <>
       <Breadcrumb name1={name1} name2={name1} />
       <br/><br/>
-      <div className="calendar shadow">
+      <div className="calendar">
         <div className="d-flex flex-wrap">
           <div className="cdr-d1">
             <img

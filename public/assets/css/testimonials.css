@@ -1,21 +1,23 @@
 .tl-sec1 {
   background: white;
-  width: 88%;
+  border: 0.5px solid rgb(217, 217, 217);
+  max-width: 1110px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 500px;
+  height: auto;
   border-radius: 10px;
   /* border: 2px solid red; */
 }
 .tl-sec {
+  border: 0.5px solid rgb(217, 217, 217);
   background: white;
-  width: 88%;
+  max-width: 1110px;
   margin: auto;
   margin-top: 5rem;
-  height: 500px;
+  height:auto;
   border-radius: 10px;
   /* border: 2px solid red; */
 }
@@ -28,6 +30,7 @@
 .tl-col1 {
   width: 35%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   opacity: 0;
@@ -41,11 +44,11 @@
 
 .tl-col1 img {
   width: 90%;
-  height: 70%;
+  height: auto;
 }
 .tl-col2 {
   width: 61%;
-  height: 90%;
+  height: auto;
   align-items: center;
   opacity: 0;
   transform: translateY(30px);
@@ -130,9 +133,14 @@
 .tl-p3{
   text-align: justify;
 }
+.tl-p4{
+  font-weight: bolder;
+}
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .tl-sec,
   .tl-sec1 {
+    width: 90%;
+    margin-top: 0;
     background: white;
     height: auto;
   }

@@ -100,14 +100,14 @@ const Testimonials = () => {
   return (
     <>
       <Breadcrumb name1={name1} name2={name1} />
-      <div className="tl-sec shadow mb-3">
-        <div className="tl-div mx-2 my-2">
+      <div className="tl-sec  mb-3">
+        <div className="tl-div m-2">
           <div ref={sec2Ref} className={`tl-col1 ${isVisible ? "show" : ""}`}>
             <img src="/assets/images/testimonials/t1.jpg" alt="t1" />
           </div>
           <div
             ref={sec3Ref}
-            className={`tl-col2 ${isSec3Visible ? "show" : ""}`}
+            className={`tl-col2 mx-3 ${isSec3Visible ? "show" : ""}`}
           >
             <p className="tl-p1">Diabetic patient from Inaruwa -2, Sunsari</p>
             <p className="tl-p2">Living healthier life</p>
@@ -131,7 +131,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="tl-sec1 shadow mb-3">
+      <div className="tl-sec1  mb-3">
         <div className="tl-div mx-2 my-2">
           <div
             ref={sec4Ref}
@@ -141,7 +141,7 @@ const Testimonials = () => {
           </div>
           <div
             ref={sec5Ref}
-            className={`tl2-col2 ${isSec5Visible ? "show" : ""}`}
+            className={`tl2-col2 mx-3 ${isSec5Visible ? "show" : ""}`}
           >
             <p className="tl-p1">अस्पताल ने मुझे नई जिन्दगि दि हे</p>
             <p className="tl-p2">मै तो दिल्ली जाने वाला था</p>
@@ -161,11 +161,11 @@ const Testimonials = () => {
               मेशिन हे। अस्पताल मे बहुत सारी सुबिधाए हे । अस्पताल के इलाज के लिए
               मै बहुत शुक्र गुजार हु ।
             </p>
-            <p className="tl-p4">गब्बर मियाँ, मुर्शिदाबाद, अभि बिराटनगर</p>
+            <p className="tl-p4 text-bold">गब्बर मियाँ, मुर्शिदाबाद, अभि बिराटनगर</p>
           </div>
         </div>
       </div>
-      <div className="tl-sec1 shadow">
+      <div className="tl-sec1" style={{marginBottom:"5rem"}}>
         <div className="tl-div mx-2 my-2">
           <div
             ref={sec6Ref}
@@ -175,7 +175,7 @@ const Testimonials = () => {
           </div>
           <div
             ref={sec7Ref}
-            className={`tl3-col2 ${isSec7Visible ? "show" : ""}`}
+            className={`tl3-col2  mx-3 ${isSec7Visible ? "show" : ""}`}
           >
             <p className="tl-p1">धनकुटा -२</p>
             <p className="tl-p2">सर्वोच्च र उत्कृस्ट हस्पिटल</p>
