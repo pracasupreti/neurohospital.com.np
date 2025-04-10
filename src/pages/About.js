@@ -145,7 +145,7 @@ const About = () => {
               </p>
               <p className="abu-p3">
                 Neuro Cardio & Multispecialty Hospital Pvt. Ltd. is a well-known
-                multispecialty hospital that was established in 2000 A.D to
+                multispecialty hospital that was established in 2000 A.D. to
                 provide the best neurological and other medical facilities.
               </p>
               <div className="abu-p4 text-bold">Dr. Birendra Kumar Bista</div>

@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="ct-sec1">
           <div className="ct1-col1">
             <p className="ct-p1">Departments & Helplines</p>
-            <p>
+            <p style={{textAlign:"justify"}}>
               Reaching our hospital is very easy. For emergency cases, we
               provide round-the-clock services. For other cases and
               appointments, you can fill out our online form.
