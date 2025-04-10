@@ -1,8 +1,9 @@
 .abu-sec1 {
   animation: appear 1.5s ease-in-out;
-  height: 700px;
+  height: auto;
   /* border:2px solid red; */
   display: flex;
+  margin: 2rem 0;
   justify-content: center;
   align-items: center;
 }
@@ -68,6 +69,8 @@
   background-color: #17a2b8 !important;
 }
 .abu-sec2 {
+  /* border: 2px solid red; */
+  margin: 2rem 0;
   height: auto;
   display: flex;
   justify-content: center;
@@ -81,7 +84,6 @@
   transform: translateY(0);
 }
 .abu-sec2-cnt {
-  margin-bottom: 2rem !important;
   width: 1110px;
   margin: auto;
   height: 90%;
@@ -155,7 +157,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem !important;
+  margin: 2rem  0 !important;
 }
 .abu-sec3-div1 {
   width: 1110px;
@@ -193,7 +195,9 @@
   color: white;
 }
 .abu-sec4 {
-  height: 600px;
+  /* border: 2px solid rgb(255, 0, 0); */
+  margin: 2rem 0;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,7 +205,6 @@
 .abs4-cnt {
   width: 1110px;
   height: 70%;
-  /* border: 2px solid black; */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -248,11 +251,11 @@
   margin-bottom: 1.7rem;
 }
 .abu-sec5 {
-  /* border:2px solid rgb(14, 234, 3); */
+  /* border:2px solid rgb(234, 3, 3); */
   height: auto;
   background-color: #f8f9fb;
   display: flex;
-
+  margin: 2rem 0;
   justify-content: center;
   align-items: center;
 }
@@ -312,7 +315,8 @@
 }
 .abu-sec6 {
   /* border:2px solid rgb(39, 10, 207); */
-  height: 350px;
+  height: auto;
+  margin: 5rem 0;
   display: flex;
   justify-content: center;
   align-items: center;

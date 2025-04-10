@@ -12,7 +12,7 @@ const Contact = () => {
         <div className="ct-sec1">
           <div className="ct1-col1">
             <p className="ct-p1">Departments & Helplines</p>
-            <p>
+            <p style={{textAlign:"justify"}}>
               Reaching our hospital is very easy. For emergency cases, we
               provide round-the-clock services. For other cases and
               appointments, you can fill out our online form.
@@ -21,7 +21,7 @@ const Contact = () => {
               We also provide online counseling facilities via WhatsApp, Viber,
               Zoom, Jio Video Call, etc.
             </p>
-            <div className="ct-div1 d-flex">
+            <div className="ct-div1">
               <div className="ct-col2">
                 <div className="ct-p2">Emergency Helpline</div>
                 <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="ct-div1 d-flex">
+            <div className="ct-div1">
               <div className="ct-col1">
                 <div className="ct-p2">Outreach Department</div>
                 <div className="ct-p4">Bhaarat Shrestha</div>
