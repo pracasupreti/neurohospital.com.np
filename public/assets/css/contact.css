@@ -118,16 +118,21 @@
 }
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .ct-sec1 {
+    margin: 1rem auto;
     height: auto;
     width: 90%;
+  }
+  .ct-p1{
+    font-size: 1.6rem;
   }
   .ct1-col1,
   .ct1-col2 {
     width: 100%;
   }
   .ct1-col2 {
+   
+    justify-content: none;
     /* border: 2px solid black; */
-    justify-content: center;
     height: auto;
   }
   .ct-p5 {
@@ -138,7 +143,9 @@
   }
   .ct-col1,
   .ct-col2 {
-    width: 48%;
+    width: 100%;
+   
+    margin-bottom: 1rem;
   }
   .ct-div1 {
     margin: 0 0 1rem 0;
@@ -160,15 +167,14 @@
     max-width: 30%;
   }
   .contact-map-frame {
-    padding: 5% 0;
-    width: 450px !important;
+    padding-bottom: 5%;
     margin: auto;
-    /* border: 2px solid red; */
+   
     height: 30rem !important;
   }
   .contact-i-frame {
     /* border: 2px solid black !important; */
-    width: 100%;
+    max-width: 100%;
     height: 100%;
   }
 }

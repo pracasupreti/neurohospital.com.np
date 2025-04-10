@@ -21,7 +21,7 @@ const Contact = () => {
               We also provide online counseling facilities via WhatsApp, Viber,
               Zoom, Jio Video Call, etc.
             </p>
-            <div className="ct-div1 d-flex">
+            <div className="ct-div1">
               <div className="ct-col2">
                 <div className="ct-p2">Emergency Helpline</div>
                 <div>
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="ct-div1 d-flex">
+            <div className="ct-div1">
               <div className="ct-col1">
                 <div className="ct-p2">Outreach Department</div>
                 <div className="ct-p4">Bhaarat Shrestha</div>
