@@ -135,7 +135,7 @@ const Academics = () => {
             <p className="As-p3  text-center text-dark mb-3">CTEVT Courses</p>
           <p className="As-p4" style={{ textAlign: 'justify' }}>
              The Council for Technical Education and Vocational
-            Training (CTEVT) constituted in 1989 (2045 BS) is a national
+            Training (CTEVT) constituted in 1989 (2045 B.S.) is a national
             autonomous apex body of Technical and Vocational Education and
             Training (TVET) sector committed for the production of technical and
             skillful human resources required to the nation. It mainly involves

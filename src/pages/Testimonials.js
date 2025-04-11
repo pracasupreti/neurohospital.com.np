@@ -101,13 +101,13 @@ const Testimonials = () => {
     <>
       <Breadcrumb name1={name1} name2={name1} />
       <div className="tl-sec  mb-3">
-        <div className="tl-div">
+        <div className="tl-div mx-2 mt-4">
           <div ref={sec2Ref} className={`tl-col1 my-2 ${isVisible ? "show" : ""}`}>
             <img src="/assets/images/testimonials/t1.jpg" alt="t1" />
           </div>
           <div
             ref={sec3Ref}
-            className={`tl-col2 mx-2 ${isSec3Visible ? "show" : ""}`}
+            className={`tl-col2 ${isSec3Visible ? "show" : ""}`}
           >
             <p className="tl-p1">Diabetic patient from Inaruwa -2, Sunsari</p>
             <p className="tl-p2">Living healthier life</p>
@@ -132,7 +132,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="tl-sec1  mb-3">
-        <div className="tl-div mx-2">
+        <div className="tl-div mx-3 mt-4">
           <div
             ref={sec4Ref}
             className={`tl2-col1 my-2 ${isSec4Visible ? "show" : ""}`}
@@ -166,7 +166,7 @@ const Testimonials = () => {
         </div>
       </div>
       <div className="tl-sec1" style={{marginBottom:"5rem"}}>
-        <div className="tl-div mx-2 mt-4">
+        <div className="tl-div mx-3 mt-4">
           <div
             ref={sec6Ref}
             className={`tl3-col1 ${isSec6Visible ? "show" : ""}`}
