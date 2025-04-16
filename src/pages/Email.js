@@ -11,11 +11,11 @@ const Email = () => {
         >
           <div className="m-3">
             <label for="exampleInputEmail1" className="form-label">
-              Email:
+              Username:
             </label>
             <input
               name="login"
-              type="email"
+              type="text"
               className="form-control"
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
@@ -26,16 +26,10 @@ const Email = () => {
               Password:
             </label>
             <input
-              type="hidden"
-              name="retpath"
-              value="http://mail.yandex.com/for/neurohospital.com.np"
-            />
-            <input
               type="password"
               name="passwd"
               className="form-control"
               id="exampleInputPassword1"
-              value=""
               maxlength="100"
               tabindex="2"
             />
