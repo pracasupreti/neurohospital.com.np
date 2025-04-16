@@ -44,7 +44,7 @@ const Email = () => {
               tabindex="4"
             />
             <label className="form-check-label" for="exampleCheck1">
-              Remember me
+              Don't Remember me
             </label>
           </div>
           <div className="text-center mb-3">
