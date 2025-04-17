@@ -24,6 +24,7 @@
   font-size: 8px;
 }
 .b-div1 a {
+  text-decoration: none;
   color: #302e2e !important;
 }
 .b-div1 a:hover {

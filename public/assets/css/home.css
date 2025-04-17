@@ -160,7 +160,6 @@
   height: 650px;
 }
 .hcard {
-  /* font-size: 13px; */
   height: 80%;
   width: 80%;
   color: #ffffff !important;
@@ -866,17 +865,17 @@
 
   .home-row .col1 {
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: auto;
   }
   .home-row .col2 {
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: auto;
   }
   .home-row .col3 {
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     height: auto;
   }
   .home-row .col4 {
@@ -954,13 +953,15 @@
     padding: 1.5rem;
   }
   .swiper {
-    height: 500px;
+    /* border: 2px solid red; */
+    height: auto;
     width: 88%;
   }
   .slider-card {
     height: 26rem !important;
     width: 98% !important;
     margin: auto;
+    margin-bottom: 2rem;
   }
   .slider-container {
     height: auto;
@@ -976,6 +977,7 @@
     font-size: 1.5rem;
   }
   .swiper-pagination-bullet {
+   /* border: 2px solid black; */
     height: 8px;
     width: 8px;
   }
