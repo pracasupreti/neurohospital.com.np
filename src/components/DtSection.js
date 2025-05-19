@@ -115,20 +115,27 @@ const DtSection = () => {
       link: "/doctors",
       id: "NMC # : 12015",
     },
-    {
-      name: "Dr. Nishan Bhurtel",
-      pic: "/assets/images/doctors/dc19.png",
-      prof: "Senior Nephrologist",
+     {
+      name: "Dr. Gaurav Chettri",
+      pic: "/assets/images/doctors/gaurav.png",
+      prof: "Consultant Nephrologist",
       link: "/doctors",
       id: "NMC # : 9731",
     },
-    {
-      name: "Dr. Niraj Dhakal",
-      pic: "/assets/images/doctors/dc20.png",
-      prof: "Consultant Nephrologist",
-      link: "/doctors",
-      id: "NMC # : 12283",
-    },
+    // {
+    //   name: "Dr. Nishan Bhurtel",
+    //   pic: "/assets/images/doctors/dc19.png",
+    //   prof: "Senior Nephrologist",
+    //   link: "/doctors",
+    //   id: "NMC # : 9731",
+    // },
+    // {
+    //   name: "Dr. Niraj Dhakal",
+    //   pic: "/assets/images/doctors/dc20.png",
+    //   prof: "Consultant Nephrologist",
+    //   link: "/doctors",
+    //   id: "NMC # : 12283",
+    // },
     {
       name: "Dr. Mohan Karki",
       pic: "/assets/images/doctors/dc21.png",
@@ -192,15 +199,15 @@ const DtSection = () => {
       link: "/doctors",
       id: "NMC # : 6361",
     },
-  ];
-  const list1 = [
-    {
+     {
       name: "Dr. Nabin Kumar Chaudhary",
       pic: "/assets/images/doctors/dc30.png",
       prof: "Physiotherapist",
       link: "/doctors",
       id: "NMC # : 25PHY",
-    },
+    }
+  ];
+  const list1 = [
     {
       name: "Join our Team",
       pic: "/assets/images/doctors/dc31.png",
