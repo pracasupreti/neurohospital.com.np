@@ -8,6 +8,7 @@ const Email = () => {
           className="w-25 border shadow"
           method="post"
           action="https://passport.yandex.com/for/neurohospital.com.np?mode=auth"
+          
         >
           <div className="m-3">
             <label for="exampleInputEmail1" className="form-label">
