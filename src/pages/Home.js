@@ -169,9 +169,9 @@ const Home = () => {
               </div>
               <div className="home-1-2">
                 <img
-                  src="/assets/images/homepage/homeimage.png"
+                  src="/assets/images/homepage/logo.png"
                   alt="home-image"
-                  className="home-1-pic"
+                  className="home-1-pic mb-1"
                 />
               </div>
             </div>
