@@ -16,7 +16,7 @@ function App() {
   const isNotFoundPage = location.pathname === "/404";
   const isUserLogin = location.pathname === "/email";
   useEffect(() => {
-    ReactGA.initialize("G-Y6XX5D6NJW");
+    ReactGA.initialize("G-NDJ1CG5SVE");
     ReactGA.send({ hitType: "pageview", page: location.pathname });
   }, [location]);
 

@@ -136,13 +136,13 @@ const DtSection = () => {
     //   link: "/doctors",
     //   id: "NMC # : 12283",
     // },
-    {
-      name: "Dr. Mohan Karki",
-      pic: "/assets/images/doctors/dc21.png",
-      prof: "Consultant Neurosurgeon",
-      link: "/doctors",
-      id: "NMC # : 11223",
-    },
+    // {
+    //   name: "Dr. Mohan Karki",
+    //   pic: "/assets/images/doctors/dc21.png",
+    //   prof: "Consultant Neurosurgeon",
+    //   link: "/doctors",
+    //   id: "NMC # : 11223",
+    // },
     {
       name: "Dr. Ashish Jung Thapa",
       pic: "/assets/images/doctors/dc22.png",
@@ -205,9 +205,7 @@ const DtSection = () => {
       prof: "Physiotherapist",
       link: "/doctors",
       id: "NMC # : 25PHY",
-    }
-  ];
-  const list1 = [
+    },   
     {
       name: "Join our Team",
       pic: "/assets/images/doctors/dc31.png",
@@ -216,6 +214,15 @@ const DtSection = () => {
       id: "Apply now",
     },
   ];
+  // const list1 = [
+  //   {
+  //     name: "Join our Team",
+  //     pic: "/assets/images/doctors/dc31.png",
+  //     prof: "Apply Now",
+  //     link: "/apply",
+  //     id: "Apply now",
+  //   },
+  // ];
   const navigate = useNavigate();
   const load = (link) => {
     navigate(link);
@@ -237,24 +244,7 @@ const DtSection = () => {
           </div>
         ))}
       </div>
-      <div className="ul-doc1 ">
-        {list1.map((item) => (
-          <div key={item.id} className="li-doc1">
-            <div className="li-doc-1 text-center">
-              <img src={item.pic} alt="dc1" />
-              <div className="dcts-1-p1">{item.name}</div>
-              <div className="dcts-1-p2">{item.prof}</div>
-              <Link
-              
-                onClick={() => load(item.link)}
-                className="dcts-btn btn"
-              >
-                {item.id}
-              </Link>
-            </div>
-          </div>
-        ))}
-      </div>
+     
     </>
   );
 };
