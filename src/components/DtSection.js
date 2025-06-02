@@ -46,6 +46,14 @@ const DtSection = () => {
       id: "NMC # : 8369",
     },
     {
+      name: "Dr. Ashish Jung Thapa",
+      pic: "/assets/images/doctors/dc22.png",
+      prof: "Senior Consultant Neurosurgeon",
+      link: "/doctors",
+      id: "NMC # : 11347",
+    },
+    
+    {
       name: "Dr. Sunil Kumar Das",
       pic: "/assets/images/doctors/dc9.jpg",
       prof: "Senior Consultant Neurosurgeon",
@@ -143,13 +151,7 @@ const DtSection = () => {
     //   link: "/doctors",
     //   id: "NMC # : 11223",
     // },
-    {
-      name: "Dr. Ashish Jung Thapa",
-      pic: "/assets/images/doctors/dc22.png",
-      prof: "Consultant Neurosurgeon",
-      link: "/doctors",
-      id: "NMC # : 11347",
-    },
+    
     {
       name: "Dr. Nisha Adhikari",
       pic: "/assets/images/doctors/dc23.png",
