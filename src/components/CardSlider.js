@@ -53,7 +53,7 @@ const cards = [
     img: "/assets/images/homepage/sl7.png",
     name: "GYNECOLOGY",
     description:
-      "It is the branch of medicine dealing with the skin. A dermatologist is a specialist medical doctor who manages diseases related to skin, hair, nails, cosmetic problems. ",
+      "Gynaecology or gynecology is the area of medicine concerned with conditions affecting the female reproductive system. It is often paired with the field of obstetrics.",
   },
   {
     id: 8,
