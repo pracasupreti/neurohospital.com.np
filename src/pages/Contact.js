@@ -111,7 +111,7 @@ const Contact = () => {
             <p className="ct-p7">pro@neurohospital.com.np</p>
             <Link
             target="_blank"
-              to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
+              to="https://wa.me/9779852020093?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >
               <i className="fa-brands fa-whatsapp text-light"></i>{" "}
@@ -126,7 +126,7 @@ const Contact = () => {
             <p className="ct-p7">frontdesk@neurohospital.com.np</p>
             <Link
             target="_blank"
-              to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
+              to="https://wa.me/9779852020093?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >
               <i className="fa-brands fa-whatsapp text-light"></i>&nbsp;WhatsApp
@@ -139,7 +139,7 @@ const Contact = () => {
             <p className="ct-p7">counselor@neurohospital.com.np</p>
             <Link
             target="_blank"
-              to="https://wa.me/9779852004024?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
+              to="https://wa.me/9779852020093?text=Hi,%20%0A%0AI%27m%20contacting%20you%20from%20your%20website%20www.neurohospital.com.np%20%0AThanks%20"
               className="ct-s3-btn btn"
             >
               <i className="fa-brands fa-whatsapp text-light"></i>&nbsp;WhatsApp
