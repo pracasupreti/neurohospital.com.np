@@ -20,7 +20,7 @@ const Footer = () => {
                 profesionally managed healthcare solutions.
               </p>
               <div className="footer-media-icons">
-                <NavLink target="_blank" to="https://wa.me/9779852004024?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20">
+                <NavLink target="_blank" to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20">
                   <i className="fa-brands fa-whatsapp"></i>
                 </NavLink>
                 <NavLink target="_blank" to="https://www.linkedin.com/company/neurohospital/?originalSubdomain=np">
