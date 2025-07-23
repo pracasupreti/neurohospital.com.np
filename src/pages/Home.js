@@ -9,6 +9,7 @@ const Home = () => {
   const [homePic, showHomePic] = useState(true);
   const [image, setImage] = useState(null);
   const getdate = new Date().toISOString().slice(5, 10);
+  //list of events
   const events = [
     {
       date: "07-25",
