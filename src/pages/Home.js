@@ -7,6 +7,139 @@ import SectionSix from "../components/SectionSix";
 
 const Home = () => {
   const [homePic, showHomePic] = useState(true);
+  const [image, setImage] = useState(null);
+  const getdate = new Date().toISOString().slice(5, 10);
+  //list of events
+  const events = [
+    {
+      date: "07-25",
+      img: "/assets/images/roadblock/7-25.jpg",
+    },
+    {
+      date: "07-26",
+      img: "/assets/images/roadblock/7-26.jpg",
+    },
+    {
+      date: "07-27",
+      img: "/assets/images/roadblock/7-27.jpg",
+    },
+    {
+      date: "07-28",
+      img: "/assets/images/roadblock/7-28.jpg",
+    },
+    {
+      date: "07-29",
+      img: "/assets/images/roadblock/7-29.jpg",
+    },
+    {
+      date: "07-30",
+      img: "/assets/images/roadblock/7-30.jpg",
+    },
+    {
+      date: "07-31",
+      img: "/assets/images/roadblock/7-31.jpg",
+    },
+    {
+      date: "08/01",
+      img: "/assets/images/roadblock/8-1.jpg",
+    },
+    {
+      date: "08-02",
+      img: "/assets/images/roadblock/8-2.jpg",
+    },
+    {
+      date: "08-03",
+      img: "/assets/images/roadblock/8-3.jpg",
+    },
+    {
+      date: "08-04",
+      img: "/assets/images/roadblock/8-4.jpg",
+    },
+    {
+      date: "08-05",
+      img: "/assets/images/roadblock/8-5.jpg",
+    },
+    {
+      date: "08-06",
+      img: "/assets/images/roadblock/8-6.jpg",
+    },
+    {
+      date: "08-07",
+      img: "/assets/images/roadblock/8-7.jpg",
+    },
+    {
+      date: "08-08",
+      img: "/assets/images/roadblock/8-8.jpg",
+    },
+    {
+      date: "08-09",
+      img: "/assets/images/roadblock/8-9.jpg",
+    },
+    {
+      date: "08-10",
+      img: "/assets/images/roadblock/8-10.jpg",
+    },
+    {
+      date: "08-11",
+      img: "/assets/images/roadblock/8-11.jpg",
+    },
+    {
+      date: "08-12",
+      img: "/assets/images/roadblock/8-12.jpg",
+    },
+    {
+      date: "08-13",
+      img: "/assets/images/roadblock/8-13.jpg",
+    },
+    {
+      date: "08-14",
+      img: "/assets/images/roadblock/8-14.jpg",
+    },
+    {
+      date: "08-15",
+      img: "/assets/images/roadblock/8-15.jpg",
+    },
+    {
+      date: "08-16",
+      img: "/assets/images/roadblock/8-16.jpg",
+    },
+    {
+      date: "08-17",
+      img: "/assets/images/roadblock/8-17.jpg",
+    },
+    {
+      date: "08-18",
+      img: "/assets/images/roadblock/8-18.jpg",
+    },
+    {
+      date: "08-19",
+      img: "/assets/images/roadblock/8-19.jpg",
+    },
+    {
+      date: "08-20",
+      img: "/assets/images/roadblock/8-20.jpg",
+    },
+    {
+      date: "08-21",
+      img: "/assets/images/roadblock/8-21.jpg",
+    },
+    {
+      date: "08-22",
+      img: "/assets/images/roadblock/8-22.jpg",
+    },
+    {
+      date: "08-23",
+      img: "/assets/images/roadblock/8-23.jpg",
+    },
+  ];
+  const findImage = () => {
+    const event = events.find((e) => e.date === getdate);
+    if (event) {
+      setImage(event.img);
+    } else {
+      setImage("/assets/images/homepage/1.jpg");
+    }
+  };
   const img = "/assets/images/homepage/video-img.jpg";
   const url = "https://www.youtube.com/watch?v=TnBuYRP5hZo";
   const close = () => {
@@ -34,6 +167,7 @@ const Home = () => {
   const [isSec7Visible, setIsSec7Visible] = useState(false);
 
   useEffect(() => {
+    findImage();
     if (homePic) {
       const timer = setTimeout(() => {
         showHomePic(false);
@@ -41,6 +175,7 @@ const Home = () => {
 
       return () => clearTimeout(timer);
     }
+    
     const sec1Element = sec1Ref.current;
     const sec2Element = sec2Ref.current;
     const sec3Element = sec3Ref.current;
@@ -136,11 +271,7 @@ const Home = () => {
       {homePic && (
         <div className="overlay">
           <div className="overlay-div">
-            <img
-              src="/assets/images/homepage/1.jpg"
-              alt="Home"
-              className="overlay-image"
-            />
+            <img src={image} alt="Home" className="overlay-image" />
             <button className="close-button" onClick={close}>
               X
             </button>

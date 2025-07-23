@@ -23,8 +23,8 @@
   align-items: center;
 }
 .overlay-image {
-  height: 95%;
-  width: 70%;
+  height: 88%;
+  width: auto;
 }
 .close-button {
   position: absolute;
@@ -809,9 +809,7 @@
     width:90%;
     /* border: 2px solid black; */
   }
-  .overlay-image {
-    width: 80%;
-  }
+ 
   .home-bg {
     max-width: 100%;
     height: 45rem;
