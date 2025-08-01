@@ -40,7 +40,7 @@ const Home = () => {
       img: "/assets/images/roadblock/7-31.jpg",
     },
     {
-      date: "08/01",
+      date: "08-01",
       img: "/assets/images/roadblock/8-1.jpg",
     },
     {
