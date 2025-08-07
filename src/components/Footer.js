@@ -91,7 +91,7 @@ const Footer = () => {
               <b className="text-dark">
                 Neuro Cardio & Multispeciality Hospital Pvt. Ltd.
               </b>{" "}
-              All Rights Reserved
+              All Rights Reserved.
             </div>
             <div className="f-l-cnt text-center ">
               Site Managed By : <Link className="text-decoration-none text-dark" to="https://wa.me/97798520225735?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20" target="_blank">PRACAS UPRETI</Link>
