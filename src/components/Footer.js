@@ -20,7 +20,7 @@ const Footer = () => {
                 profesionally managed healthcare solutions.
               </p>
               <div className="footer-media-icons">
-                <NavLink target="_blank" to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20">
+                <NavLink target="_blank" to="https://d.sriyog.com/neuro">
                   <i className="fa-brands fa-whatsapp"></i>
                 </NavLink>
                 <NavLink target="_blank" to="https://www.linkedin.com/company/neurohospital/?originalSubdomain=np">
@@ -94,7 +94,7 @@ const Footer = () => {
               All Rights Reserved
             </div>
             <div className="f-l-cnt text-center ">
-              Site Managed By : <Link className="text-decoration-none text-dark" to="https://wa.me/9779852020060?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20" target="_blank">PRACAS UPRETI</Link>
+              Site Managed By : <Link className="text-decoration-none text-dark" to="https://wa.me/97798520225735?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20" target="_blank">PRACAS UPRETI</Link>
             </div>
           </div>
         </div>

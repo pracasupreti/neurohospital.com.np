@@ -366,7 +366,7 @@ const Home = () => {
                   <div className="hcard">
                     <p className="h5 mb-3">Emergency Cases</p>
                     <Link
-                      to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20"
+                      to="https://d.sriyog.com/neuro"
                       className="text-decoration-none text-light mt-3 mb-3"
                     >
                       <i className="fa-solid fa-phone-flip"></i>
@@ -377,7 +377,7 @@ const Home = () => {
                       and WhatsApp.
                     </p>
                     <Link
-                      to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20"
+                      to="https://d.sriyog.com/neuro"
                       className="card-btn btn text-light mt-3"
                     >
                       Call on WhatsApp

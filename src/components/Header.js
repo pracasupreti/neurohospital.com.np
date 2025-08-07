@@ -277,7 +277,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
                 {showLdi && <div className="media-content">LinkedIn</div>}
               </NavLink>
               <NavLink
-                to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20"
+                to="https://d.sriyog.com/neuro"
                 target="_blank"
                 className="media-container"
                 onMouseOver={() => setShowWtsp(true)}

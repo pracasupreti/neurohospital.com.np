@@ -10,7 +10,7 @@ const Float = () => {
         </Link>
       </section>
       <section className="float-2">
-        <Link className="float2-link" target="_blank" to="https://wa.me/9779852020093?text=Hi%2C%20I%27m%20contacting%20you%20through%20www.neurohospital.com.np.%20">
+        <Link className="float2-link" target="_blank" to="https://d.sriyog.com/neuro">
         <i className="fa-brands fa-whatsapp text-light"></i>
         </Link>
       </section>
