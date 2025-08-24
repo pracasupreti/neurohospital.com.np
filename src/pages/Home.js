@@ -137,7 +137,7 @@ const Home = () => {
     if (event) {
       setImage(event.img);
     } else {
-      setImage("/assets/images/homepage/1.jpg");
+      setImage("/assets/images/homepage/defaut.jpg");
     }
   };
   const img = "/assets/images/homepage/video-img.jpg";
