@@ -134,7 +134,7 @@ const Message = () => {
               Mr. Rajesh Bhattarai | Operational Director
             </div>
             <div className="ms2d2-p4 mb-3 mt-2 ">
-            <i className="fa-solid fa-stethoscope"></i> &nbsp;
+            
               <Link to="mailto:rajesh@neurohospital.com.np">
                 rajesh@neurohospital.com.np
               </Link>
@@ -253,8 +253,8 @@ const Message = () => {
             </div>
             <div className="ms2d2-p4 ">
             <i className="fa-solid fa-stethoscope"></i> &nbsp;
-              <Link to="mailto:drkarna@neurohospital.com.np">
-                drkarna@neurohospital.com.np
+              <Link to="mailto:drkattel@neurohospital.com.np">
+                drkattel@neurohospital.com.np
               </Link>
             </div>
             <Link className="msd2-btn btn mt-4">Browse More</Link>

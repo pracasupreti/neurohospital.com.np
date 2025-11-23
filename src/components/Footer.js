@@ -52,9 +52,19 @@ const Footer = () => {
               </p>
               <p>
                 P:{" "}
-                <Link to="tel:+977-21-417475" className="foot-phn" target="_blank">
+                {/* <Link to="tel:+977-21-417475" className="foot-phn" target="_blank">
                   +977-21-417484 / 417475
-                </Link>
+                </Link> */}
+
+                <Link to="tel:+977-21-417484" className="foot-phn" target="_blank">
+                +977-21-417484
+              </Link>
+
+              <Link to="tel:+977-21-417475" className="foot-phn" target="_blank">
+                / 417475
+              </Link>
+
+
               </p>
             </div>
             <div className="cols col-md-3 col-sm-12 col-xs-12">

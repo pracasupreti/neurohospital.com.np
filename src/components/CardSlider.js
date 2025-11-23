@@ -51,9 +51,9 @@ const cards = [
   {
     id: 7,
     img: "/assets/images/homepage/sl7.png",
-    name: "GYNECOLOGY",
+    name: "GYNAECOLOGY",
     description:
-      "Gynaecology or gynecology is the area of medicine concerned with conditions affecting the female reproductive system. It is often paired with the field of obstetrics.",
+      "Gynaecology is the area of medicine concerned with conditions affecting the female reproductive system. It is often paired with the field of obstetrics.",
   },
   {
     id: 8,

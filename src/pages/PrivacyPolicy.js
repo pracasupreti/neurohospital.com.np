@@ -155,7 +155,7 @@ const PrivacyPolicy = () => {
             <div className="pp-p5">Contact us</div>
             <p>
               If you have any questions about this privacy policy, please
-              contact our Outreach Officer at outreach @neurohospital.com.np
+              contact our Outreach Officer at outreach@neurohospital.com.np
             </p>
           </div>
         </div>
