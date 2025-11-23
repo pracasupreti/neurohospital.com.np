@@ -312,7 +312,7 @@ const Services = () => {
                 OPD consultations and 25% off medical services.
               </li>
               <li>
-                <i>Gynecology Consultations (Thursday) –</i> Specialized women’s
+                <i>Gynaecology Consultations (Thursday) –</i> Specialized women’s
                 health consultations.
               </li>
               <li>

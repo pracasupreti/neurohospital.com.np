@@ -65,14 +65,14 @@ const Partner = () => {
   ];
   const list3 = [
     {
-      name: "Nepal SBI Bank Ltd.",
+      name: "Nepal SBI Bank Limited",
       date: "Date of MoU : 4-Apr-2024",
       img: "/assets/images/partner/sbi.png",
       des: "Nepal SBI Bank Ltd. was established in July 1993 and has emerged as one of the leading banks of Nepal, with 937 skilled and dedicated Nepalese employees(as on Poush end 2080) working in a total of 144 outlets that include 97 full-fledged branches, 22 extension counters, 7 Province offices, 17 Branchless Banking Outlets and Corporate Office .",
       link: "https://nsbl.statebank/",
     },
     {
-      name: "NMB Bank",
+      name: "NMB Bank Limited",
       date: "Date of MoU : 4-Apr-2024",
       img: "/assets/images/partner/nmb.png",
       des: "NMB Bank Limited licensed as “A” class financial institution by Nepal Rastra Bank in May 2008 has been operating in the Nepalese Financial market for over twenty years and is one of the leading commercial banks in the banking industry.",
@@ -81,7 +81,7 @@ const Partner = () => {
   ];
   const list4 = [
     {
-      name: "Prabhu Bank",
+      name: "Prabhu Bank Limited",
       date: "Date of MoU : 10-May-2024",
       img: "/assets/images/partner/prabhu.jpg",
       des: "Prabhu Bank has gone through the various phases of its growth trajectory over a short period of its existence. Growth of Prabhu Bank was phenomenal, especially after merger of Grand Bank Nepal Limited, Kist Bank Ltd, Prabhu Bikash Bank Ltd, Gaurishankar Development Bank Ltd and Zenith Finance Ltd in, 2016, attaining the status of “A” class financial institution licensed and regulated by the central bank of Nepal, Nepal Rastra Bank.",
@@ -224,7 +224,7 @@ const Partner = () => {
             </div>
             <div className="ptr3-col2 py-2">
               <p className="ptr-p1">Date of MoU : 2-May-2024</p>
-              <p className="ptr-p2">Pabson Morang</p>
+              <p className="ptr-p2">PABSON Morang</p>
               <p className="ptr-p3">
                 Private schools in Nepal have a significant historical role,
                 emerging to complement government efforts in enhancing access

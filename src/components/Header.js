@@ -229,7 +229,7 @@ const Header = ({ menuOpen, setMenuOpen }) => {
                 <i className="fa-solid fa-phone-flip  text-light"></i>&nbsp;
                 +977-21-416267
               </NavLink>
-              <NavLink to="/email" target="_blank">
+              <NavLink to="https://mail.yandex.com" target="_blank">
                 <i className="fa-solid fa-envelope  text-light"></i>&nbsp; Check
                 Email
               </NavLink>

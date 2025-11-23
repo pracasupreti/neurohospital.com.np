@@ -32,7 +32,7 @@ const Contact = () => {
                 </div>
                 <div>
                   Hotline :{" "}
-                  <Link className="ct-p3" to="tel: +977-21-416267">
+                  <Link className="ct-p3" to="tel:+977-21-416267">
                     {" "}
                     +977-21-416267
                   </Link>{" "}
@@ -42,13 +42,13 @@ const Contact = () => {
                 <div className="ct-p2">Ambulance</div>
                 <div>
                   Tel :{" "}
-                  <Link className="ct-p3" to="tel : +977-21-417484">
+                  <Link className="ct-p3" to="tel:+977-21-417484">
                     +977-21-417484
                   </Link>{" "}
                 </div>
                 <div>
                   Tel :{" "}
-                  <Link className="ct-p3" to="tel: +977-21-417475">
+                  <Link className="ct-p3" to="tel:+977-21-417475">
                     +977-21-417475
                   </Link>{" "}
                 </div>
@@ -58,7 +58,7 @@ const Contact = () => {
               <div className="ct-col1">
                 <div className="ct-p2">Outreach Department</div>
                 <div className="ct-p4">Bhaarat Shrestha</div>
-                <div>WhatsApp : +977-9852032994 </div>
+                <div>WhatsApp : +977-9852032994</div>
                 <div>
                   WhatsApp Call :{" "}
                   <Link to="https://d.sriyog.com/neuro" className="ct-p5" target="_blank">
