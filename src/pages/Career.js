@@ -104,7 +104,7 @@ const Career = () => {
           <Link
           onClick={() =>
             (window.location.href =
-              "mailto:hrd@neurohospital.com.np?subject=Applying%20for%20Staff%20Nurse")
+              "mailto:hrd@neurohospital.com.np?subject=Applying%20for%20Vacancy")
           }
           className="cr-btn btn"
         >
