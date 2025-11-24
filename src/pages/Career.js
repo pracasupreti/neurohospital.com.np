@@ -55,10 +55,11 @@ const Career = () => {
           <div className="h5 mb-3">Required Candidates: 10</div>
           <div className="h5 mb-3">Salary: As per the government standard.</div>
 
+          
           <br /><hr /><br />
 
           {/* <Link onClick={() => load("/apply")} className="cr-btn btn">Apply now</Link> */}
-
+          
          
 
           {/* ------------------ Staff Nurse ------------------ */}
@@ -96,9 +97,20 @@ const Career = () => {
           <div className="h5 mb-3">Required Candidates: 20</div>
           <div className="h5 mb-3">Salary: As per the government standard.</div>
 
+          
+
           <br /><hr /><br />
 
-          {/* <Link onClick={() => load("/apply")} className="cr-btn btn">Apply now</Link> */}
+          <Link
+          onClick={() =>
+            (window.location.href =
+              "mailto:hrd@neurohospital.com.np?subject=Applying%20for%20Staff%20Nurse")
+          }
+          className="cr-btn btn"
+        >
+          Apply now
+        </Link>
+
 
         </div>
       </div>
