@@ -40,7 +40,7 @@ const DtSection = () => {
     },
     {
       name: "Dr. Roshan Khatiwada",
-      pic: "/assets/images/doctors/dc8.jpg",
+      pic: "/assets/images/doctors/dc8.png",
       prof: "Senior Consultant Neurosurgeon",
       link: "/doctors",
       id: "NMC # : 8369",
@@ -55,7 +55,7 @@ const DtSection = () => {
     
     {
       name: "Dr. Sunil Kumar Das",
-      pic: "/assets/images/doctors/dc9.jpg",
+      pic: "/assets/images/doctors/dc9.png",
       prof: "Senior Consultant Neurosurgeon",
       link: "/doctors",
       id: "NMC # : 13007",
