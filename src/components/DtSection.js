@@ -117,7 +117,7 @@ const DtSection = () => {
       id: "NMC # : 10713",
     },
     {
-      name: "Dr. Purushuttom Parajuli",
+      name: "Dr. Purushottam Parajuli",
       pic: "/assets/images/doctors/dc18.png",
       prof: "Consultant Urologist",
       link: "/doctors",
@@ -128,7 +128,7 @@ const DtSection = () => {
       pic: "/assets/images/doctors/gaurav.png",
       prof: "Consultant Nephrologist",
       link: "/doctors",
-      id: "NMC # : 9731",
+      id: "NMC # : 9060",
     },
     // {
     //   name: "Dr. Nishan Bhurtel",
